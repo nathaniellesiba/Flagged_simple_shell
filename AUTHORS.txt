@@ -1,3 +1,4 @@
 # This file name contributors
 
 Nathaniel Tsutsa <nathtt@gmail.com>
+Peter Wanyonyi
