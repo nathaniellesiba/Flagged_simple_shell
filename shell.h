@@ -181,6 +181,7 @@ int _myhelp(info_t *);
 /* toem_builtin1.c */
 int _myhistory(info_t *);
 int _myalias(info_t *);
+int (*get_builtin(char *cmd))(data_shell *);
 
 /*toem_getline.c */
 ssize_t get_input(info_t *);
