@@ -1,13 +1,13 @@
 #include "shell.h"
 
 /**
-**cpystr - copy of a string
+**_strncpy - copy of a string
 *@dest: copying destination
 *@src: str source
 *@n: copied char amount
 *Return: concatenated str
 */
-char *cpystr(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 int i, j;
 char *s = dest;
@@ -31,13 +31,13 @@ return (s);
 }
 
 /**
-**catstr - string concatenater
+**_strncat - string concatenater
 *@dest: string 1 arguments
 *@src: string 2 arguments
 *@n: max bit used
 *Return: concatenated str
 */
-char *catstr(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
 char *s = dest;
@@ -58,12 +58,12 @@ return (s);
 }
 
 /**
-**strloc - locates char str
+**_strchr - locates char str
 *@s: parsed string
 *@c: char arguments
 *Return: pointer to memory area
 */
-char *strloc(char *s, char c)
+char *_strchr(char *s, char c)
 {
 do {
 if (*s == c)
