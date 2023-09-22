@@ -146,6 +146,7 @@ int _putchar(char);
 char *_strncpy(char *dest, char *src, int n);
 char *_strncat(char *dest, char *src, int n);
 char *_strchr(char *s, char c);
+int _exitsh(data_shell *datash);
 
 /* toem_tokenizer.c */
 char **strtow(char *, char *);
