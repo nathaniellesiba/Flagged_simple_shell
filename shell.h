@@ -12,10 +12,10 @@
 #include <fcntl.h>
 #include <errno.h>
 
-int main(void);
+
 void prompt1Display(void);
 void prompt2Display(void);
-int main(int argc, char **argv);
+
 char *read_cmd(void);
 
 #endif
