@@ -26,6 +26,7 @@ char* starts_with(const char *str, const char *prefix);
 int setenv_builtin(int argc, char *argv[]);
 int unsetenv_builtin(int argc, char *argv[]);
 int main(int argc, char *argv[]);
+void print_environment(void);
 
 
 

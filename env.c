@@ -39,3 +39,32 @@ node = node->next;
 
 return (NULL);
 }
+
+extern char **environ;
+/**
+*print_environment - display current
+*/
+
+void print_environment(void)
+{
+/*Get the pointer to the environment variable array*/
+char **env = environ;
+
+/*Iterate over each environment variable until NULL is encountered*/
+while (*env != NULL) {
+printf("%s\n", *env);
+env++;
+}
+}
+
+/**
+*Call the function to print
+*the current environment variables
+*Return: Always 0
+*/
+
+int main(void)
+{
+print_environment();
+return (0);
+}
