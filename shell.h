@@ -21,6 +21,12 @@ int tswoke(info_t *info);
 int tsdelmt(char c, char *delim);
 void print_env(info_t *info);
 char *getenv(info_t *info, const char *name);
+void print_env(void);
+char* starts_with(const char *str, const char *prefix);
+int setenv_builtin(int argc, char *argv[]);
+int unsetenv_builtin(int argc, char *argv[]);
+int main(int argc, char *argv[]);
+
 
 
 
