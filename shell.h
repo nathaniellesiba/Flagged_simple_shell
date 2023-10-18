@@ -12,8 +12,15 @@
 #include <fcntl.h>
 #include <errno.h>
 
+<<<<<<< HEAD
 void prompt1Display(void);
 void prompt2Display(void);
+=======
+
+void prompt1Display(void);
+void prompt2Display(void);
+
+>>>>>>> c33114a6d6596ef5cd0f43a9b6a28df9467ad251
 char *read_cmd(void);
 
 #endif
