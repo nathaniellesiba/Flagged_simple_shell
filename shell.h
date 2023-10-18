@@ -17,5 +17,11 @@ void prompt1Display(void);
 void prompt2Display(void);
 int tsexit(info_t *info);
 char *read_cmd(void);
+int tswoke(info_t *info);
+int tsdelmt(char c, char *delim);
+void print_env(info_t *info);
+char *getenv(info_t *info, const char *name);
+
+
 
 #endif
