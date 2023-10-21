@@ -27,6 +27,9 @@ int setenv_builtin(int argc, char *argv[]);
 int unsetenv_builtin(int argc, char *argv[]);
 int main(int argc, char *argv[]);
 void print_environment(void);
+void signal_hndl(int sig);
+int cmd_checker(char **cmd, char *input, int c, char **argv);
+int builtin_hndl(char **cmd, int er)
 
 
 
