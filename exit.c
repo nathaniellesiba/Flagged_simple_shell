@@ -1,6 +1,20 @@
 #include "shell.h"
 
 /**
+*main - exit funct
+*Return: always 0
+*/
+
+int main(void)
+{
+if (/* condition to check if the user entered "exit" */)
+{
+exit(0);
+}
+return (0);
+}
+
+/**
  * tsexit - shell exiting state
  * @info: state char argument
  * Return: always 0 on success of state
